@@ -1,0 +1,1 @@
+scoreboard players set @s arcbkf_step_done 1

@@ -1,0 +1,1 @@
+execute as @e[tag=arcbkf_pointer,limit=1,sort=nearest,distance=..90] run function arcbkf:self_speed_super
