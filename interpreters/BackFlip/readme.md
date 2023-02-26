@@ -6,6 +6,8 @@ Designed for Minecraft 1.19.4
 
 Programs are built horizontally out of blocks, and a special armor stand is used as a pointer to move over the program and evaluate it. Since the basic operations of BackFlip are reversable, programs can also be run in reverse, which in Minecraft can be useful for resetting the program's state
 
+Also available as a [zipped data pack file](https://github.com/Arctenik/mc-data-packs/blob/zips/interpreters/BackFlip.zip)
+
 ## Syntax
 
 - Arrow - Magenta glazed terracotta - Changes the pointer's direction of movement (as indicated by the arrow shape on the default texture), and then turns to face opposite the direction the pointer was going previously
