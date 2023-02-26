@@ -1,3 +1,3 @@
 # interpreters
 
-Programming language interpreters (mostly esolangs) implemented as data packs
+Programming language interpreters (mainly esolangs) implemented as data packs
