@@ -6,7 +6,7 @@ Designed for Minecraft 1.19.4
 
 ## Known issues
 
-- It turns out the output method I've used (`tellraw` with interpreted NBT lists) doesn't work with double-quote characters
+- It turns out the output method I've used (`tellraw` with interpreted NBT lists) doesn't work with the double-quote character
 
 ## Implementation notes
 
