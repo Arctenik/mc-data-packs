@@ -2,6 +2,8 @@
 
 A [brainfuck](https://esolangs.org/wiki/Brainfuck) interpreter; also available as a [zipped data pack](https://github.com/Arctenik/mc-data-packs/blob/zips/interpreters/brainfuck.zip)
 
+Designed for Minecraft 1.19.4
+
 ## Implementation notes
 
 - 8-bit wrapping cells
@@ -31,5 +33,6 @@ A [brainfuck](https://esolangs.org/wiki/Brainfuck) interpreter; also available a
 
 ## Misc notes
 
+- I *think* it should work for multiple players to run programs at once, but I haven't actually tested it
 - In my small amount of testing, it seems like using a very large number of steps per tick doesn't noticeably increase evaluation speed, but does quite noticeably impact the game's tick speed
 - Input/output could probably be calculated in a more efficient way (as it is they're done by just iterating over the character set until the character is found)
