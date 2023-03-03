@@ -27,7 +27,7 @@ A [brainfuck](https://esolangs.org/wiki/Brainfuck) interpreter; also available a
 - The program and input are each extracted in a single tick, which theoretically means they could run into the command limit; in the unlikely event that this happens (probably indicated by the interpreter never saying "Running..."), you can try killing the interpreter as described above and then increasing the `maxCommandChainLength` gamerule before running again
 - Program evaluation can happen across multiple ticks, with each tick having a maximum number of steps that can run during it. This number can be configured by setting the player's `arcbf_tick_steps` score before running the program, e.g. with `/scoreboard players set @s arcbf_tick_steps 1000`
   - If the score is unset or 0, a default value of 600 will be used
-  - If the score is -1, the number will be automatically calculated based on `maxCommandChainLength` (this calculated number will also be used as a maximum in other cases)
+  - If the score is -1, the number will be automatically calculated based on `maxCommandChainLength` (this calculated value will also be used to limit the number in the other cases)
 
 ## Misc notes
 
