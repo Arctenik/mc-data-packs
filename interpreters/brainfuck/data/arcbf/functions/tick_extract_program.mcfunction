@@ -1,0 +1,1 @@
+execute as @e[tag=arcbf_tick_extract_program] run function arcbf:extract_program

@@ -1,0 +1,53 @@
+do_step: 44
+	12
+	--- 23
+	step_op: 23
+		12
+		move_right_program: 2
+		--- 9
+		op_increment: 4
+		op_decrement: 4
+		move_right_tape: 3
+		move_left_tape: 2
+		op_loop_open: 5
+			2
+			begin_skip_forward: 3
+		op_loop_close: 8
+			2
+			begin_skip_backward: 6
+				4
+				move_left_program: 2
+		op_input: 6
+		op_output: 7
+			3
+			--- 4
+			output_line: *4
+			start_output_search: 3
+		print_debug_info: 9
+	step_find_left: 13
+		6
+		move_left_program: 2
+		found_bracket_left: 5
+			3
+			move_right_program: 2
+	step_find_right: 10
+		6
+		move_right_program: 2
+		found_bracket_right: 2
+	step_find_input_char: 10
+		7
+		--- 3
+		found_input_char: 3
+		unknown_input_char: 3
+	step_find_output_char: 7
+		4
+		found_output_char: 3
+	--- 9
+	halt: 9
+		4
+		output_line: 4
+			3
+			set_id_query: 1
+		set_id_query: 1
+	schedule_eval: 2
+	
